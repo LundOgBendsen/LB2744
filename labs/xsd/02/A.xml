@@ -1,0 +1,5 @@
+<my:A xmlns:my="my-target-namespace"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="my-target-namespace A.xsd">
+  <my:A>a string</my:A>
+</my:A>

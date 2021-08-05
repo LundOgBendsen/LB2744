@@ -1,0 +1,7 @@
+<per:person xmlns:per="http://lundogbendsen.dk/schemas/2021/08/02/Person">
+  <per:name>string</per:name>
+  <per:hero>false</per:hero>
+  <per:netWorth>3</per:netWorth>
+  <per:birthdate>2007-10-26</per:birthdate>
+  <per:massOnEarth>1000.00</per:massOnEarth>
+</per:person>
