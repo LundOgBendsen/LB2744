@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--her kan du lave din zoologiske have -->
-
 <Zoo source="zoo_db" genereret="2001-12-12">
     <Navn name='Kbh&apos;s zoo'/>
 
@@ -12,7 +10,7 @@
                 <Bur>
                     <Dyr>
                         <Navn>Jumbo</Navn>
-                        <Art taksonomi="von Linné">
+                        <Art>
                             Elefant
                         </Art>
                     </Dyr>
@@ -29,18 +27,19 @@
         </Bygning>
 
         <Bygning>
-
+            <Navn>Tropehuset</Navn>
+            <Bure>
+                <Bur>
+                    <Dyr>
+                        <Navn>Grumme</Navn>
+                        <Art>Krokodille</Art>
+                    </Dyr>
+                    <Dyr>
+                        <Navn>Jaws</Navn>
+                        <Art>Alligator</Art>
+                    </Dyr>
+                </Bur>
+            </Bure>
         </Bygning>
-
     </Bygninger>
-    <Ansatte>
-        <Ansat id="1">
-            <Navn>Ib</Navn>
-        </Ansat>
-        <Ansat id="2">
-            <Navn>Ib</Navn>
-        </Ansat>
-
-    </Ansatte>
-
 </Zoo>

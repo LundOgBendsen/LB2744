@@ -1,4 +1,6 @@
-<product xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Product">
+<product xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Product"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="ttp://lundogbendsen.dk/schemas/2021/08/02/Product ./product.xsd">
   <name>Ford Focus</name>
   <price>70000</price>
   <components>

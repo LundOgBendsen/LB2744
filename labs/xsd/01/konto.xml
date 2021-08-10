@@ -1,3 +1,5 @@
-<acc:konto xmlns:acc="http://lundogbendsen.dk/schemas/2021/08/02/Account" >
+<acc:konto xmlns:acc="http://lundogbendsen.dk/schemas/2021/08/02/Account"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://lundogbendsen.dk/schemas/2021/08/02/Account ./konto.xsd">
   <acc:number2>1234567890</acc:number2>
 </acc:konto>

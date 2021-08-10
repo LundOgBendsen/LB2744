@@ -1,4 +1,6 @@
-<text xmlns:text="http://lundogbendsen.dk/schemas/2021/08/02/Text">
+<text xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Text"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://lundogbendsen.dk/schemas/2021/08/02/Text ./text.xsd">
   <b>Dagbog</b>
   <b>1-1-2020</b>
   <p>En glad dag</p>

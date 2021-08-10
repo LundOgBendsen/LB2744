@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema
         targetNamespace="http://lundogbendsen.dk/schemas/2021/08/03/Person"
-        xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+        xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     <element name="person">
         <complexType>
             <sequence>
@@ -24,11 +24,11 @@
                 <element name="hero">
                     <simpleType>
                         <restriction base="boolean">
-                           <pattern value="true|false"/>
+                            <pattern value="true|false"/>
                         </restriction>
                     </simpleType>
                 </element>
-                <element name="netWorth" >
+                <element name="netWorth">
                     <simpleType>
                         <restriction base="int">
                             <minInclusive value="-100"/>
@@ -41,21 +41,21 @@
                 <element name="massOnEarth" type="decimal"/>
                 <element name="favouriteSmallPrime">
                     <simpleType>
-                        <restriction base='integer' >
-                            <enumeration value='2' />
-                            <enumeration value='3' />
-                            <enumeration value='5' />
-                            <enumeration value='7' />
+                        <restriction base='integer'>
+                            <enumeration value='2'/>
+                            <enumeration value='3'/>
+                            <enumeration value='5'/>
+                            <enumeration value='7'/>
                         </restriction>
                     </simpleType>
                 </element>
             </sequence>
         </complexType>
     </element>
-    <simpleType name="ikkeNovEllerDec" >
+    <simpleType name="ikkeNovEllerDec">
         <restriction base="gMonth">
-            <maxExclusive value="11" />
+            <maxExclusive value="9"/>
         </restriction>
     </simpleType>
 
-        </schema>
+</schema>

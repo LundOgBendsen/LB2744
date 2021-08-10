@@ -5,7 +5,7 @@
     <Dato>2021/01/01</Dato>
     <Kunde>
         <Cvr>25902661</Cvr>
-        <Navn>L&B</Navn>
+        <Navn>L&amp;B</Navn>
     </Kunde>
     <OrdreLinie>
         <Antal>3</Antal>

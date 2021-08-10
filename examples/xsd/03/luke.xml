@@ -1,4 +1,6 @@
-<person xmlns="http://lundogbendsen.dk/schemas/2021/08/03/Person">
+<person xmlns="http://lundogbendsen.dk/schemas/2021/08/03/Person"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://lundogbendsen.dk/schemas/2021/08/02/Person ./person.xsd">
   <name>ab</name>
   <licensePlate>BB1223</licensePlate>
   <hero>true</hero>
