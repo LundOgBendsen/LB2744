@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+        targetNamespace="http://lundogbendsen.dk/schemas/2021/08/02/Account"
+        xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+    <element name="konto">
+        <complexType>
+            <sequence>
+                <element name="kontonummer" >
+                    <simpleType>
+                        <restriction base="string">
+                            <minLength value="10"/>
+                            <maxLength value="10"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="registreringsnummer" >
+                    <simpleType>
+                        <restriction base="string">
+                            <minLength value="4"/>
+                            <maxLength value="4"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="saldo" >
+                    <simpleType>
+                        <restriction base="decimal">
+                            <minInclusive value="0.0"/>
+                            <maxInclusive value="99000000.00"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="oprettetDato" type="date"/>
+                <element name="type" >
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="Opsparing"/>
+                            <enumeration value="Lønkonto"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="amlSuspekt" type="boolean"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

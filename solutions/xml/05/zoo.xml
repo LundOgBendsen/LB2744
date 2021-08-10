@@ -2,7 +2,6 @@
 
 <!--her kan du lave din zoologiske have -->
 
-
 <Zoo source="zoo_db" genereret="2001-12-12">
     <Navn name='Kbh&apos;s zoo'/>
 

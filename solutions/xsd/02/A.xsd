@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema
         targetNamespace="my-target-namespace"
-        xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+        xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+        xmlns:tns="my-target-namespace">
 
     <element name="A">
         <complexType>
