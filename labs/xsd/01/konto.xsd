@@ -5,7 +5,7 @@
     <element name="konto">
         <complexType>
             <sequence>
-                <element name="number2" type="string"/>
+                <element name="number" type="string"/>
             </sequence>
         </complexType>
     </element>
