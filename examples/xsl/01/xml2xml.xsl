@@ -7,9 +7,6 @@
         </items>
     </xsl:template>
 
-    <xsl:template match="CATALOG">  <!-- match any element named CATALOG-->
-        <xsl:apply-templates/> <!--process child elements, i.e. CDs-->
-    </xsl:template>
 
     <!-- show how to convert a nested element structure to one element with attributes -->
     <xsl:template match="CD"> <!-- match CD elements-->

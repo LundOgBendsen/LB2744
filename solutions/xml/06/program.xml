@@ -6,46 +6,52 @@
         <Kanal række="1" kolonne="1">
             <Navn>NRK1</Navn>
             <Logo>nrk1.jpg</Logo>
-            <Udsendelse>
-                <Start>12.00</Start>
-                <Slut>13.00</Slut>
-                <Navn>Barnaby</Navn>
-            </Udsendelse>
-            <Udsendelse>
-                <Start>13.00</Start>
-                <Slut>13.30</Slut>
-                <Navn>Nyheder</Navn>
-            </Udsendelse>
+            <Udsendelser>
+                <Udsendelse>
+                    <Start>12.00</Start>
+                    <Slut>13.00</Slut>
+                    <Navn>Barnaby</Navn>
+                </Udsendelse>
+                <Udsendelse>
+                    <Start>13.00</Start>
+                    <Slut>13.30</Slut>
+                    <Navn>Nyheder</Navn>
+                </Udsendelse>
+            </Udsendelser>
         </Kanal>
 
         <Kanal række="1" kolonne="2">
             <Navn>NRK2</Navn>
             <Logo>nrk2.jpg</Logo>
-            <Udsendelse>
-                <Start>12.00</Start>
-                <Slut>13.00</Slut>
-                <Navn>Barnaby</Navn>
-            </Udsendelse>
-            <Udsendelse>
-                <Start>13.00</Start>
-                <Slut>13.30</Slut>
-                <Navn>Nyheder</Navn>
-            </Udsendelse>
+            <Udsendelser>
+                <Udsendelse>
+                    <Start>12.00</Start>
+                    <Slut>13.00</Slut>
+                    <Navn>Barnaby</Navn>
+                </Udsendelse>
+                <Udsendelse>
+                    <Start>13.00</Start>
+                    <Slut>13.30</Slut>
+                    <Navn>Nyheder</Navn>
+                </Udsendelse>
+            </Udsendelser>
         </Kanal>
 
         <Kanal række="2" kolonne="1">
             <Navn>NRK3</Navn>
             <Logo>nrk1.jpg</Logo>
-            <Udsendelse>
-                <Start>12.00</Start>
-                <Slut>13.00</Slut>
-                <Navn>Barnaby</Navn>
-            </Udsendelse>
-            <Udsendelse>
-                <Start>13.00</Start>
-                <Slut>13.30</Slut>
-                <Navn>Nyheder</Navn>
-            </Udsendelse>
+            <Udsendelser>
+                <Udsendelse>
+                    <Start>12.00</Start>
+                    <Slut>13.00</Slut>
+                    <Navn>Barnaby</Navn>
+                </Udsendelse>
+                <Udsendelse>
+                    <Start>13.00</Start>
+                    <Slut>13.30</Slut>
+                    <Navn>Nyheder</Navn>
+                </Udsendelse>
+            </Udsendelser>
         </Kanal>
 
         <Kanal række="2" kolonne="2">

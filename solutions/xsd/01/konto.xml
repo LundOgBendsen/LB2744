@@ -6,5 +6,5 @@
   <saldo>1000.00</saldo>
   <oprettetDato>2008-09-29</oprettetDato>
   <type>Opsparing</type>
-  <amlSuspekt>true</amlSuspekt>
-</konto>
+  <amlSuspekt>0</amlSuspekt>
+ </konto>

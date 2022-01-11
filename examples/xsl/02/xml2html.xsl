@@ -10,21 +10,14 @@
                         <th>Title</th>
                         <th>Artist</th>
                     </tr>
-                    <xsl:apply-templates/> <!-- process child elements using matching templates-->
+                    <xsl:for-each select="CATALOG/CD">
+                        <tr>
+                            <td><xsl:value-of select="TITLE"/></td>
+                            <td><xsl:value-of select="ARTIST"/></td>
+                        </tr>
+                    </xsl:for-each>
                 </table>
             </body>
         </html>
     </xsl:template>
-
-    <xsl:template match="CATALOG">  <!-- match any element named CATALOG-->
-        <xsl:apply-templates/> <!--process child elements, i.e. CDs-->
-    </xsl:template>
-
-    <xsl:template match="CD"> <!-- match CD elements-->
-            <tr>
-                <td><xsl:value-of select="TITLE"/></td>
-                <td><xsl:value-of select="ARTIST"/></td>
-            </tr>
-    </xsl:template>
-
 </xsl:stylesheet>
