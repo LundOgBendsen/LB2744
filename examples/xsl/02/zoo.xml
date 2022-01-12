@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xml2html.xsl"?>
 
 <!--her kan du lave din zoologiske have -->
 
-<minZoo xmlns="http://kkzoo.dk/schemas/dyr"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://kkzoo.dk/schemas/dyr ./zoo.xsd">
+<minZoo>
     <dyr>
         <art>Påfugl</art>
-        <navn>Polly</navn>
+        <navn>Mugge</navn>
     </dyr>
     <bygning no="1">
         <bur>
@@ -17,7 +16,7 @@
             </dyr>
         </bur>
     </bygning>
-    <bygning no="1">
+    <bygning no="2">
         <bur no="11" type="Outside">
             <dyr>
                 <art>Alligator</art>
@@ -28,15 +27,15 @@
                 <navn>Karen</navn>
             </dyr>
         </bur>
-        <bur no="12" type="Inside">
+        <bur no="1" type="Inside">
             <dyr>
                 <art>Python</art>
                 <navn>Palle</navn>
             </dyr>
         </bur>
     </bygning>
-    <bygning no="2">
-        <bur no="21" type="Outside">
+    <bygning no="3">
+        <bur no="2" type="Outside">
             <dyr>
                 <art>Parrot</art>
                 <navn>Polly</navn>

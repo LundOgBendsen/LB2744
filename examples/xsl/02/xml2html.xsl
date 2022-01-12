@@ -4,20 +4,52 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h2>My CD Collection</h2>
-                <table border="1">
-                    <tr bgcolor="#9acd32">
-                        <th>Title</th>
-                        <th>Artist</th>
-                    </tr>
-                    <xsl:for-each select="CATALOG/CD">
-                        <tr>
-                            <td><xsl:value-of select="TITLE"/></td>
-                            <td><xsl:value-of select="ARTIST"/></td>
-                        </tr>
-                    </xsl:for-each>
-                </table>
-            </body>
+                <h2>Roden</h2>
+                 <i>
+                     <xsl:apply-templates/>
+                 </i>
+             </body>
         </html>
     </xsl:template>
+
+    <xsl:template match="minZoo">
+        <h2>kbh zoo</h2>
+        <xsl:apply-templates />
+    </xsl:template>
+
+    <xsl:template match="minZoo/dyr">
+        <h2>Dyr</h2>
+        Art: <xsl:value-of select="art"/>
+        Navn: <xsl:value-of select="navn"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+
+    <xsl:template match="bur">
+        <h3>Bur</h3>
+        No: <xsl:value-of select="@no"/>
+        Type: <xsl:value-of select="@type"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="dyr">
+        <p>Dyr</p>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="art">
+        Art: <xsl:value-of select="."/>
+    </xsl:template>
+
+    <xsl:template match="navn">
+        Navn: <xsl:value-of select="."/>
+    </xsl:template>
+
+    <xsl:template match="bygning">
+        <h2>Bygning</h2>
+        No: <xsl:value-of select="@no"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+
 </xsl:stylesheet>
