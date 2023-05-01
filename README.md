@@ -12,4 +12,4 @@ In here you find:
 
 [labs](./labs) resources for labs / exercises (Øvelser)
 
-(C) Copyright Lund&Bendsen 2021
+(C) Copyright Lund&Bendsen 2023
