@@ -4,9 +4,9 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h2>My CD Collection</h2>
+                <h2>Jakobs CD Collection</h2>
                 <table border="1">
-                    <tr bgcolor="#9acd32">
+                    <tr bgcolor="#ff0000">
                         <th>Title</th>
                         <th>Artist</th>
                     </tr>

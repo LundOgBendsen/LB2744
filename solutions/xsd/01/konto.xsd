@@ -24,21 +24,30 @@
                 <element name="saldo" >
                     <simpleType>
                         <restriction base="decimal">
-                            <minInclusive value="1000.0"/>
+                            <minInclusive value="0.0"/>
                             <maxInclusive value="99000000.00"/>
                         </restriction>
                     </simpleType>
+
                 </element>
                 <element name="oprettetDato" type="date"/>
                 <element name="type" >
                     <simpleType>
                         <restriction base="string">
-                            <enumeration value="Opsparing"/>
                             <enumeration value="Lønkonto"/>
+                            <enumeration value="Opsparingskonto"/>
                         </restriction>
                     </simpleType>
                 </element>
-                <element name="amlSuspekt" type="boolean"/>
+                <element name="amlSuspekt">
+                    <!--we restrict to true/false to prevent the use of 1/0-->
+                    <simpleType>
+                        <restriction base="boolean">
+                            <enumeration value="true"/>
+                            <enumeration value="false"/>
+                        </restriction>
+                    </simpleType>
+                </element>
             </sequence>
         </complexType>
     </element>

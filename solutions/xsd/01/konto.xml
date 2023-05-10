@@ -1,10 +1,10 @@
 <konto xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Account"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://lundogbendsen.dk/schemas/2021/08/02/Account konto.xsd">
-  <kontonummer>stringstri</kontonummer>
-  <registreringsnummer>stri</registreringsnummer>
-  <saldo>1000.00</saldo>
-  <oprettetDato>2008-09-29</oprettetDato>
-  <type>Opsparing</type>
-  <amlSuspekt>0</amlSuspekt>
- </konto>
+    <kontonummer>ab12121212</kontonummer>
+    <registreringsnummer>a123</registreringsnummer>
+    <saldo>1000.00</saldo>
+    <oprettetDato>2008-09-29</oprettetDato>
+    <type>Lønkonto</type>
+    <amlSuspekt>true</amlSuspekt>
+</konto>
